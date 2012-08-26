@@ -204,6 +204,13 @@ public class ArrayUtils {
         return new EqualsBuilder().append(array1, array2).isEquals();
     }
 
+    
+    public static boolean isEqualsIgnoreOrder(Object array1, Object array2) {
+        // TODO
+        return false;
+    }
+
+
     // To map
     //-----------------------------------------------------------------------
     /**
